@@ -1,0 +1,37 @@
+Gherkin Language
+
+Scenario
+Given - Pre Conditions
+When - action we need to perform
+And - supporting tag
+Then - expected results
+
+
+Recap:
+what is FrameWork?
+--it is an organized structure of folders & packages which allows us to write clean and meanable code.
+
+build management tool:
+--Maven
+
+POM.xml is the main configration file in maven project.
+
+Main folder under SRC is to use to write code by develpoers.
+Test-- it is used to write the code to test the application
+
+        --Java--- for tech/Coding we use java directory
+        --resources--for non tech/non code resources
+
+
+        cucumber: is supported BDD
+                --we use Gherkin language(plain english Text) to write the scenarios
+
+                --it works with Junit.
+
+
+        Scenario:
+            it is a test case
+           Given--pre condition
+           When--action
+           And--Supporting tag
+           Then-- expected result
